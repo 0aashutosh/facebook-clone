@@ -8,6 +8,8 @@
     --body-color:#efefef;
     --nav-color: #1876f2;
     --bg-color: #fff;
+    --primary-color:#edf2fc;
+    --secondary-color: #212121;
 }
 .dark-theme{
     --body-color:#0a0a0a;
@@ -461,4 +463,36 @@ nav{
 #dark-btn.dark-btn-on{
     padding-left: 23px;
     background: #0a0a0a;
+}
+
+/* -------profile page----------- */
+.profile-container{
+    padding: 20px 15%;
+    color: #626262;
+}
+.cover-img{
+    width: 100%;
+    border-radius: 6px;
+    margin-bottom: 14px;
+}
+.profile-details{
+    background: var(--bg-color);
+    padding: 20px;
+    border-radius: 4px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.pd-row{
+    display: flex;
+    align-items: flex-start;
+}
+.pd-image{
+    width: 100px;
+    margin-right: 20px;
+    border-radius: 6px;
+}
+.pd-row div h3{
+    font-size: 25px;
+    font-weight: 600;
 }
