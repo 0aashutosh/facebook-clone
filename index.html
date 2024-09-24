@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IF=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FriendZone</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+    <nav>
+        <div class="nav-left">
+            <img src="./images/logo.png" alt="" class="logo">
+            <ul>
+                <li><img src="./images/notification.png" alt=""></li>
+                <li><img src="./images/inbox.png" alt=""></li>
+                <li><img src="./images/video.png" alt=""></li>
+            </ul>
+        </div>
+        <div class="nav-right">
+
+            <div class="search-box">
+                <img src="./images/search.png" alt="">
+                <input type="text" placeholder="Search" >
+            </div>
+            <div class="nav-user-icon online" onclick="settingsMenuToggle()">
+                <img src="./images/profile-pic.png" alt="">
+            </div>
+        </div>
+
+        <!-- settings menu -->
+
+        <div class="settings-menu">
+
+            <div id="dark-btn">
+                <span></span>
+            </div>
+            <div class="settings-menu-inner">
+
+                <div class="user-profile">
+                    <img src="./images/profile-pic.png">
+                    <div>
+                        <p>Aashutosh Lama</p>
+                        <a href="#">See Your Profile</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="user-profile">
+                    <img src="./images/feedback.png">
+                    <div>
+                        <p>Give Feedback</p>
+                        <a href="#">Help us to improve new design</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="settings-links">
+                    <img src="./images/setting.png" class="settings-icon">
+                    <a href="#">Settings and Privacy <img src="./images/arrow.png" width="10px"></a>
+                </div>
+                <div class="settings-links">
+                    <img src="./images/help.png" class="settings-icon">
+                    <a href="#">Help and Support<img src="./images/arrow.png" width="10px"></a>
+                </div>
+                <div class="settings-links">
+                    <img src="./images/display.png" class="settings-icon">
+                    <a href="#">Display and Acccessibility <img src="./images/arrow.png" width="10px"></a>
+                </div>
+                <div class="settings-links">
+                    <img src="./images/logout.png" class="settings-icon">
+                    <a href="#">Logout <img src="./images/arrow.png" width="10px"></a>
+                </div>
+
+
+
+            </div>
+
+        </div>
+    </nav>
+    
+
+    <div class="container">
+        <!-- left-side-bar------------------ -->
+        <div class="left-sidebar">
+            <div class="imp-links">
+                <a href="#"><img src="./images/news.png">Latest News</a>
+                <a href="#"><img src="./images/friends.png">Friends</a>
+                <a href="#"><img src="./images/group.png">Group</a>
+                <a href="#"><img src="./images/marketplace.png">Marketplace</a>
+                <a href="#"><img src="./images/watch.png">Watch</a>
+                <a href="">See more</a>
+            </div>
+            <div class="shortcut-links">
+                <p>Your Shortcuts </p>
+                <a href=""><img src="./images/shortcut-1.png">Web Developers</a>
+                <a href=""><img src="./images/shortcut-2.png">Web Design course</a>
+                <a href=""><img src="./images/shortcut-3.png">Full Stack Development</a>
+                <a href=""><img src="./images/shortcut-4.png">Website Experts</a>
+            </div>
+        </div>
+                <!-- main-content------------------ -->
+
+        <div class="main-content">
+
+            <div class="story-gallery">
+
+                <div class="story story1">
+                    <img src="./images/upload.png">
+                    <p>Post story</p>
+                </div>
+            
+                <div class="story story2">
+                    <img src="./images/member-1.png">
+                    <p>Alison</p>
+                </div>
+            
+                <div class="story story3">
+                    <img src="./images/member-2.png">
+                    <p>Neymar Jr.</p>
+                </div>
+           
+                <div class="story story4">
+                    <img src="./images/member-3.png">
+                    <p>Tyla</p>
+                </div>
+            
+                <div class="story story5">
+                    <img src="./images/member-4.png">
+                    <p>Lionel Messi</p>
+                </div>
+            </div>
+
+            <div class="write-post-container">
+                <div class="user-profile">
+                    <img src="./images/profile-pic.png">
+                    <div>
+                        <p>Aashutosh Lama</p>
+                        <small>Public <i class='bx bxs-down-arrow'></i></small>
+                    </div>
+                </div>
+
+                <div class="post-input-container">
+                    <textarea rows="3" placeholder="What`s on your mind , Aashutosh?"></textarea>
+
+                    <div class="add-post-links">
+                        <a href="#"><img src="./images/live-video.png">Live Video</a>
+                        <a href="#"><img src="./images/photo.png">Photo/Video</a>
+                        <a href="#"><img src="./images/feeling.png">Feeling/Activity</a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="post-container">
+                <div class="post-row">
+
+                    <div class="user-profile">
+                        <img src="./images/profile-pic.png">
+                        <div>
+                            <p>Aashutosh Lama</p>
+                            <span>June 24 2024, 13:40 pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class='bx bx-dots-vertical'></i></a>
+                </div>
+
+                <p class="post-text">Follow <span>@aashutosh01 </span>for more contents <a href="#">#Easytutorial</a>
+                <a href="#">#Youtube</a></p>
+                <img src="./images/feed-image-1.png" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="./images/like-blue.png">120</div>
+                        <div><img src="./images/comments.png">20</div>
+                        <div><img src="./images/share.png">43</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="./images/profile-pic.png" ><i class='bx bxs-down-arrow'></i>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="post-container">
+                <div class="post-row">
+
+                    <div class="user-profile">
+                        <img src="./images/profile-pic.png">
+                        <div>
+                            <p>Aashutosh Lama</p>
+                            <span>Juky 08 2024, 11:24 am</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class='bx bx-dots-vertical'></i></a>
+                </div>
+
+                <p class="post-text">Like and share this video with friends,tag <span>@aashutosh01 </span>facebook page on your post <a href="#">#Easytutorial</a>
+                <a href="#">#Youtube</a></p>
+                <img src="./images/feed-image-2.png" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="./images/like.png">230</div>
+                        <div><img src="./images/comments.png">25</div>
+                        <div><img src="./images/share.png">43</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="./images/profile-pic.png" ><i class='bx bxs-down-arrow'></i>
+                    </div>
+                </div>
+            </div>
+            <div class="post-container">
+                <div class="post-row">
+
+                    <div class="user-profile">
+                        <img src="./images/profile-pic.png">
+                        <div>
+                            <p>Aashutosh Lama</p>
+                            <span>August 13 2024, 3:31 pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class='bx bx-dots-vertical'></i></a>
+                </div>
+
+                <p class="post-text">Gone and enjoyed the day with the homies. Glad to be back together again</p>
+                <img src="./images/feed-image-3.png" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="./images/like.png">332</div>
+                        <div><img src="./images/comments.png">32</div>
+                        <div><img src="./images/share.png">15</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="./images/profile-pic.png" ><i class='bx bxs-down-arrow'></i>
+                    </div>
+                </div>
+            </div>
+            <div class="post-container">
+                <div class="post-row">
+
+                    <div class="user-profile">
+                        <img src="./images/profile-pic.png">
+                        <div>
+                            <p>Aashutosh Lama</p>
+                            <span>June 24 2024, 13:40 pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class='bx bx-dots-vertical'></i></a>
+                </div>
+
+                <p class="post-text">Like and share this video with friends,tag <span>@aashutosh01 </span>facebook page on your post <a href="#">#Easytutorial</a>
+                <a href="#">#Youtube</a></p>
+                <img src="./images/feed-image-4.png" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="./images/like.png">230</div>
+                        <div><img src="./images/comments.png">25</div>
+                        <div><img src="./images/share.png">43</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="./images/profile-pic.png" ><i class='bx bxs-down-arrow'></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post-container">
+                <div class="post-row">
+
+                    <div class="user-profile">
+                        <img src="./images/profile-pic.png">
+                        <div>
+                            <p>Aashutosh Lama</p>
+                            <span>June 24 2024, 13:40 pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class='bx bx-dots-vertical'></i></a>
+                </div>
+
+                <p class="post-text">Like and share this video with friends,tag <span>@aashutosh01 </span>facebook page on your post <a href="#">#Easytutorial</a>
+                <a href="#">#Youtube</a></p>
+                <img src="./images/feed-image-5.png" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="./images/like.png">230</div>
+                        <div><img src="./images/comments.png">25</div>
+                        <div><img src="./images/share.png">43</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="./images/profile-pic.png" ><i class='bx bxs-down-arrow'></i>
+                    </div>
+                </div>
+            </div>
+
+            <button type="button " class="load-more-button">Load More</button>
+
+
+
+        </div>
+                <!-- right-side-bar------------------ -->
+
+        <div class="right-sidebar">
+
+            <div class="sidebar-title">
+                <h4>Events</h4>
+                <a href="#">See all</a>
+            </div>
+
+            <div class="event">
+                <div class="left-event">
+                    <h3>18</h3>
+                    <span>March</span>
+                </div>
+                <div class="right-event">
+                    <h4>Social Media</h4>
+                    <p><i class='bx bxs-map'></i> Willson Tech Park</p>
+                    <a href="#">More Info</a>
+                </div>
+            </div>
+            <div class="event">
+                <div class="left-event">
+                    <h3>22</h3>
+                    <span>June</span>
+                </div>
+                <div class="right-event">
+                    <h4>Mobile Marketing</h4>
+                    <p><i class='bx bxs-map'></i> Willson Tech Park</p>
+                    <a href="#">More Info</a>
+                </div>
+            </div>
+
+            <div class="sidebar-title">
+                <h4>Advertisement</h4>
+                <a href="#">Close</a>
+            </div>
+
+            <img src="./images/advertisement.png" class="sidebar-ads">
+
+            <div class="sidebar-title">
+                <h4>Conversation</h4>
+                <a href="#">Hide Chat</a>
+            </div>
+
+            <div class="online-list">
+                <div class="online">
+                    <img src="./images/member-1.png">
+                </div>
+                <p>Alisha Mina</p>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="./images/member-2.png">
+                </div>
+                <p>Rankit Giri</p>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="./images/member-3.png">
+                </div>
+                <p>Samona Rose</p>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>Copyright 2021 - Easy Tutorial</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
