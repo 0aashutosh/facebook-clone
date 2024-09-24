@@ -537,4 +537,82 @@ nav{
 }
 .pd-right a img{
     width: 20px;
+}.profile-info{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.info-col{
+    flex-basis: 33%;
+}
+.post-col{
+    flex-basis: 65%;
+}
+.profile-intro{
+    background: var(--bg-color);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+}
+.profile-intro h3{
+    font-weight: 600;
+}
+.intro-text{
+    text-align: center;
+    margin: 10px 0;
+    font-size: 15px;
+
+}
+.intro-text img{
+    width: 15px;
+    margin-bottom: -3px
+}
+.profile-intro hr{
+    border: 0;
+    height: 1px;
+    background: #ccc;
+    margin: 24px 0;
+}
+.profile-intro ul li{
+    list-style: none;
+    font-size: 15px;
+    margin: 15px 0;
+    display: flex;
+    align-items: center;
+}
+
+.profile-intro ul li img{
+    width: 25px;
+    margin: 10px;
+}
+.title-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.title-box a{
+    text-decoration: none;
+    color: #1876f2;
+    font-size: 14px;
+}
+.photo-box img{
+    height: 100px;
+    width: 100px;
+}
+.photo-box{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    gap: 10px;
+    margin-top: 15px;
+}
+.friends-box img{
+    height: 100px;
+    width: 100px;
+}
+ .friends-box{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    gap: 10px;
+    margin-top: 15px;
 }
